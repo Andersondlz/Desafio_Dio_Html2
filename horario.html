@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinario Anderson Luz</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+         table{
+            -webkit-box-shadow: 10px 10px 27px -7px rgba (0,0,0,0,75);
+            -moz-box-shadow: 10px 10px 27px -7px rgba (0,0,0,0,75);
+            box-shadow: 10px 10px 27px -7px rgba(0,0,0,0.75);
+        }
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td{
+            background-color: blueviolet;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: aqua;
+        }   
+        table tbody tr:hover td{
+            background-color: rgb(255, 119, 0);
+            cursor: pointer;
+        } 
+    
+        h5 {
+            color: darkgreen;
+            text-align: center;
+            font-size:1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="horario.html">Horário</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="/img/horario.svg  " width="250" alt="Logo do Veterinario Anderson Luz">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h3>Atendemos nos horários abaixo:</h1>
+                    <table width="400" align="center" cellspacing = "0" cellpadding="5">
+                    
+                        <thead>
+                            <tr>
+                                <th title="Nome Completo">Serviço</th>
+                                <th>Segunda-Sexta</th>
+                                <th>Sábado</th>
+                                <th>Feriados</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Clínica geral</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Psicologa</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatra</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Oftalmologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+    
+            <div class="footer">
+                <h5><Strong>CONTATO:</Strong> 47 - 99999-9999 Email: vetluz@veterinarioluz.com.br<h5>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

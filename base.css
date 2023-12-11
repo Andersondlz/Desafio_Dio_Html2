@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(17, 164, 7);
+    padding: 150px 20px 0px;
+    font-size:xx-large;
+    
+}
+
+.menu li a {
+    color: white;
+    list-style: none;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+}
+
+.header img{
+    display: grid;
+    width: 250px;   
+    padding: 60px;
+}
+
+.content {
+    background-color: white;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.content p{
+    color: green;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #79c0f7;
+    min-height: 150px;
+}
